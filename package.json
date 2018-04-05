@@ -1,0 +1,30 @@
+{
+  "name": "gbc-capstone-decider-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samoitdev/gbc-capstone-decider-api.git"
+  },
+  "author": "Samuel Benoit, Thomas Del Rosario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samoitdev/gbc-capstone-decider-api/issues"
+  },
+  "homepage": "https://github.com/samoitdev/gbc-capstone-decider-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.1",
+    "joi": "^13.1.2",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
